@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentación Personal</title>
+  <style>
+    body {
+      background-color: #f0f0f0; /* Color de fondo para toda la página */
+      color: #333; /* Color de texto para toda la página */
+    }
+    h1, h2 {
+      color: #009688; /* Color de texto para los títulos */
+    }
+    
+  </style>
+</head>
+<body>
+  <div>
+    <h1 style="text-align: center;">Gerardo Salinas</h1>
+    <img src="8bba2ace-aaea-4f59-8807-0ef809c3abf0.jpg" style="width: 250px; height: 250px"alt="Imagen de perfil">
+    <p>Soy un estudiante de Ingeniería en Sistemas.Tengo 20 años de edad. Soy de Choluteca.</p>
+    <div style="display: flex;">
+      <div style="flex: 1;">
+        <h2 style="text-align: left;">Pasatiempos</h2>
+        <ul>
+          <li>Correr</li>
+          <li>Escuchar música</li>
+          <li>Leer</li>
+        </ul>
+      </div>
+      <div style="flex: 1; text-align: center;">
+        <h2>Redes Sociales</h2>
+        <a href="https://m.facebook.com/profile.php/?id=100048800192985&locale=es_LA">
+          <img src="Face.png" style="width: 50px; height: 50pxalt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/gerardosalinas635/">
+          <img src="Instagram-removebg-preview.png" style="width: 50px; height: 50pxalt="Instagram">
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
